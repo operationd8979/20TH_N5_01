@@ -51,14 +51,22 @@
 }
 
 .col-2 {
-    background-color: green;
     width: 15%;
 }
 
 .col-3 {
-    background-color: blue;
     width: 35%;
 }
 .text-1 {
     border-bottom: 1px solid black;
+}
+.text-style-2{
+    font-weight: bold;
+}
+.blog_img{
+    width: 100px;
+    height: 100px;
+}
+.box-header {
+    display: flex;
 }
