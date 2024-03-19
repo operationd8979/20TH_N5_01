@@ -26,3 +26,69 @@ body {
     background-color: #CCCCCC; 
 }
 
+.wrapper_content{
+    
+}
+
+.row{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100%;
+}
+
+.col-1, .col-2, .col-3 {
+    display: inline-block;
+}
+
+.col-1 {
+    width: 50%;
+}
+
+.header_tag {
+    background-color: rgb(230, 230, 230);
+    width: 80px;
+    height: 20px;
+    color: rgb(163, 17, 41);
+    font-weight: bold;
+}
+
+
+.thumails{
+    width: 100%;
+    padding: 0 10px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.title {
+    color: rgb(163, 17, 41);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.li {
+    font-weight: bold;
+}
+
+.col-2 {
+    width: 15%;
+}
+
+.col-3 {
+    width: 35%;
+}
+.text-1 {
+    border-bottom: 1px solid black;
+}
+.text-style-2{
+    font-weight: bold;
+}
+.blog_img{
+    width: 100px;
+    height: 100px;
+}
+.box-header {
+    display: flex;
+}
