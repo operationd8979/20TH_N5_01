@@ -1,7 +1,29 @@
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #FFFFFF;
+    overflow: hidden;
+    border: 2px solid #FF0000;
+    text-align: right; 
+}
+
+.navbar a {
+    display: inline-block; 
+    color: black; 
+    padding: 14px 20px;
+    text-decoration: none;
+    font-weight: bold; 
+}
+.navbar a:hover {
+    background-color: #CCCCCC; 
 }
 
 .wrapper_content{
